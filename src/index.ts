@@ -142,10 +142,10 @@ export class MyMCP extends McpAgent {
 			// Use actual schema from cache, convert to Zod schema
 			let inputSchema: any = {};
 			
-			if (schema && schema.properties) {
-				console.log(`Using schema for ${toolName}:`, Object.keys(schema.properties));
+			if (schema && schema.schema && schema.schema.properties) {
+				console.log(`Using schema for ${toolName}:`, Object.keys(schema.schema.properties));
 				// Convert JSON schema to Zod schema
-				for (const [key, prop] of Object.entries(schema.properties)) {
+				for (const [key, prop] of Object.entries(schema.schema.properties)) {
 					const property = prop as any;
 					if (property.type === 'string') {
 						inputSchema[key] = z.string().describe(property.description || '');
