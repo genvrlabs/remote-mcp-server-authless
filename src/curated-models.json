@@ -1,0 +1,94 @@
+{
+  "curatedModels": [
+    {
+      "category": "audiogen",
+      "subcategory": "elevenlabs_sound_effects2",
+      "name": "audiogen/elevenlabs_sound_effects2",
+      "description": "Curated model: elevenlabs_sound_effects2"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "minimax_speech_02_hd",
+      "name": "audiogen/minimax_speech_02_hd",
+      "description": "Curated model: minimax_speech_02_hd"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "ideogram_v3_fast",
+      "name": "imagegen/ideogram_v3_fast",
+      "description": "Curated model: ideogram_v3_fast"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "google_nano_banana",
+      "name": "imagegen/google_nano_banana",
+      "description": "Curated model: google_nano_banana"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling2_1_pro_se2v",
+      "name": "videogen/kling2_1_pro_se2v",
+      "description": "Curated model: kling2_1_pro_se2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling2_5_i2v",
+      "name": "videogen/kling2_5_i2v",
+      "description": "Curated model: kling2_5_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling2_5_t2v",
+      "name": "videogen/kling2_5_t2v",
+      "description": "Curated model: kling2_5_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "wan2_5",
+      "name": "videogen/wan2_5",
+      "description": "Curated model: wan2_5"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "bytedance_seededit4",
+      "name": "imgutils/bytedance_seededit4",
+      "description": "Curated model: bytedance_seededit4"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "google_nano_banana",
+      "name": "imgutils/google_nano_banana",
+      "description": "Curated model: google_nano_banana"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "creatify_lipsync",
+      "name": "vidutils/creatify_lipsync",
+      "description": "Curated model: creatify_lipsync"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "runway_aleph",
+      "name": "vidutils/runway_aleph",
+      "description": "Curated model: runway_aleph"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "veed_fabric1",
+      "name": "vidutils/veed_fabric1",
+      "description": "Curated model: veed_fabric1"
+    },
+    {
+      "category": "basicutils",
+      "subcategory": "audio_video_merge",
+      "name": "basicutils/audio_video_merge",
+      "description": "Curated model: audio_video_merge"
+    },
+    {
+      "category": "basicutils",
+      "subcategory": "video_video_merge",
+      "name": "basicutils/video_video_merge",
+      "description": "Curated model: video_video_merge"
+    }
+  ]
+}

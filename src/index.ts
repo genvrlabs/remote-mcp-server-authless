@@ -1,30 +1,15 @@
 import { McpAgent } from "agents/mcp";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
-// Load GenVR data dynamically
-let schemasCache: any = {};
-let curatedModelKeys: string[] = [];
+// Import local JSON files
+import schemasCache from './schemas-cache.json';
+import curatedModels from './curated-models.json';
 
-async function loadGenVRData() {
-	try {
-		// Try to load the data dynamically
-		const [schemasModule, modelsModule] = await Promise.all([
-			import('genvr-mcp-server-lite/dist/schemas-cache.json'),
-			import('genvr-mcp-server-lite/dist/curated-models.json')
-		]);
-		
-		schemasCache = schemasModule.default || schemasModule;
-		const curatedModels = modelsModule.default || modelsModule;
-		curatedModelKeys = curatedModels.curatedModels.map((model: any) => `${model.category}/${model.subcategory}`);
-		
-		console.log(`Loaded ${curatedModelKeys.length} GenVR models`);
-	} catch (error) {
-		console.error('Failed to load GenVR data:', error);
-		// Fallback to empty data
-		schemasCache = {};
-		curatedModelKeys = [];
-	}
-}
+// Extract curated model keys from the imported data
+const curatedModelKeys = curatedModels.curatedModels.map((model: any) => `${model.category}/${model.subcategory}`);
+
+console.log(`Loaded ${curatedModelKeys.length} GenVR models`);
+console.log(`Loaded ${Object.keys(schemasCache).length} schemas`);
 
 // GenVR API base URL
 const GENVR_API_BASE = "https://api.genvrresearch.com/api/v1";
@@ -96,14 +81,12 @@ export class MyMCP extends McpAgent {
 	server = new McpServer({
 		name: "GenVR MCP Server",
 		version: "1.0.0",
-	});
+	}) as any;
 
 	async init() {
-		// Load GenVR data first
-		await loadGenVRData();
 
 		// Simple addition tool
-		this.server.tool("add", { a: z.number(), b: z.number() }, async ({ a, b }) => ({
+		this.server.tool("add", { a: z.number(), b: z.number() }, async ({ a, b }: { a: number; b: number }) => ({
 			content: [{ type: "text", text: String(a + b) }],
 		}));
 
@@ -115,7 +98,7 @@ export class MyMCP extends McpAgent {
 				a: z.number(),
 				b: z.number(),
 			},
-			async ({ operation, a, b }) => {
+			async ({ operation, a, b }: { operation: "add" | "subtract" | "multiply" | "divide"; a: number; b: number }) => {
 				let result: number;
 				switch (operation) {
 					case "add":
