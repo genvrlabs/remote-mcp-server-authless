@@ -257,8 +257,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📧 **Email**: support@genvrresearch.com
-- 💬 **Discord**: [GenVR Community](https://discord.gg/genvr)
+- 📧 **Email**: admin@genvrresearch.com
 - 📖 **Documentation**: [GenVR API Docs](https://api.genvrresearch.com/)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/genvrlabs/remote-mcp-server-authless/issues)
 
@@ -268,6 +267,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <strong>Made with ❤️ by the GenVR Team</strong>
   <br>
   <a href="https://genvrresearch.com">Website</a> • 
-  <a href="https://github.com/genvrlabs">GitHub</a> • 
-  <a href="https://discord.gg/genvr">Discord</a>
+  <a href="https://github.com/genvrlabs">GitHub</a>
 </div> 
