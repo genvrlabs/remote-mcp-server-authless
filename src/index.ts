@@ -158,7 +158,12 @@ export class MyMCP extends McpAgent {
 					} else {
 						inputSchema[key] = z.any().describe(property.description || '');
 					}
+					
 				}
+				
+				// Always add userId and accessToken for GenVR API calls
+				inputSchema.userId = z.string().describe("GenVR User ID");
+				inputSchema.accessToken = z.string().describe("GenVR Access Token");
 			} else {
 				console.log(`No schema found for ${toolName}, using fallback schema`);
 				// Fallback to basic schema if no schema found

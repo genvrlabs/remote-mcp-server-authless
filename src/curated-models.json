@@ -1,94 +1,2292 @@
 {
   "curatedModels": [
     {
-      "category": "audiogen",
-      "subcategory": "elevenlabs_sound_effects2",
-      "name": "audiogen/elevenlabs_sound_effects2",
-      "description": "Curated model: elevenlabs_sound_effects2"
-    },
-    {
-      "category": "audiogen",
-      "subcategory": "minimax_speech_02_hd",
-      "name": "audiogen/minimax_speech_02_hd",
-      "description": "Curated model: minimax_speech_02_hd"
+      "category": "imagegen",
+      "subcategory": "imagineart1",
+      "name": "imagegen/imagineart1",
+      "description": "Generate images using ImagineArt 1 model",
+      "documentation": "https://api.genvrresearch.com/imagegen/imagineart1",
+      "preview": "https://app.genvrresearch.com/imagegen/imagineart1"
     },
     {
       "category": "imagegen",
-      "subcategory": "ideogram_v3_fast",
-      "name": "imagegen/ideogram_v3_fast",
-      "description": "Curated model: ideogram_v3_fast"
+      "subcategory": "hunyuan3_image",
+      "name": "imagegen/hunyuan3_image",
+      "description": "Generate images using Hunyuan 3 Image model",
+      "documentation": "https://api.genvrresearch.com/imagegen/hunyuan3_image",
+      "preview": "https://app.genvrresearch.com/imagegen/hunyuan3_image"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "flux_spro_dev",
+      "name": "imagegen/flux_spro_dev",
+      "description": "Generate images using Flux Spro Dev model",
+      "documentation": "https://api.genvrresearch.com/imagegen/flux_spro_dev",
+      "preview": "https://app.genvrresearch.com/imagegen/flux_spro_dev"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "bytedance_seedream4",
+      "name": "imagegen/bytedance_seedream4",
+      "description": "Generate images using Bytedance Seedream 4 model",
+      "documentation": "https://api.genvrresearch.com/imagegen/bytedance_seedream4",
+      "preview": "https://app.genvrresearch.com/imagegen/bytedance_seedream4"
     },
     {
       "category": "imagegen",
       "subcategory": "google_nano_banana",
       "name": "imagegen/google_nano_banana",
-      "description": "Curated model: google_nano_banana"
+      "description": "Generate images using Google Nano Banana model",
+      "documentation": "https://api.genvrresearch.com/imagegen/google_nano_banana",
+      "preview": "https://app.genvrresearch.com/imagegen/google_nano_banana"
     },
     {
-      "category": "videogen",
-      "subcategory": "kling2_1_pro_se2v",
-      "name": "videogen/kling2_1_pro_se2v",
-      "description": "Curated model: kling2_1_pro_se2v"
+      "category": "imagegen",
+      "subcategory": "higgsfield_soul",
+      "name": "imagegen/higgsfield_soul",
+      "description": "Generate images using Higgsfield Soul model",
+      "documentation": "https://api.genvrresearch.com/imagegen/higgsfield_soul",
+      "preview": "https://app.genvrresearch.com/imagegen/higgsfield_soul"
     },
     {
-      "category": "videogen",
-      "subcategory": "kling2_5_i2v",
-      "name": "videogen/kling2_5_i2v",
-      "description": "Curated model: kling2_5_i2v"
+      "category": "imagegen",
+      "subcategory": "hunyuan2_1_image",
+      "name": "imagegen/hunyuan2_1_image",
+      "description": "Generate images using Hunyuan 2.1 Image model",
+      "documentation": "https://api.genvrresearch.com/imagegen/hunyuan2_1_image",
+      "preview": "https://app.genvrresearch.com/imagegen/hunyuan2_1_image"
     },
     {
-      "category": "videogen",
-      "subcategory": "kling2_5_t2v",
-      "name": "videogen/kling2_5_t2v",
-      "description": "Curated model: kling2_5_t2v"
+      "category": "imagegen",
+      "subcategory": "bytedance_seedream3",
+      "name": "imagegen/bytedance_seedream3",
+      "description": "Generate images using Bytedance Seedream 3 model",
+      "documentation": "https://api.genvrresearch.com/imagegen/bytedance_seedream3",
+      "preview": "https://app.genvrresearch.com/imagegen/bytedance_seedream3"
     },
     {
-      "category": "videogen",
-      "subcategory": "wan2_5",
-      "name": "videogen/wan2_5",
-      "description": "Curated model: wan2_5"
+      "category": "imagegen",
+      "subcategory": "bytedance_dreamina3_1",
+      "name": "imagegen/bytedance_dreamina3_1",
+      "description": "Generate images using Bytedance Dreamina 3.1 model",
+      "documentation": "https://api.genvrresearch.com/imagegen/bytedance_dreamina3_1",
+      "preview": "https://app.genvrresearch.com/imagegen/bytedance_dreamina3_1"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "runway_gen4_image_reference",
+      "name": "imagegen/runway_gen4_image_reference",
+      "description": "Generate images using Runway Gen4 Image Reference model",
+      "documentation": "https://api.genvrresearch.com/imagegen/runway_gen4_image_reference",
+      "preview": "https://app.genvrresearch.com/imagegen/runway_gen4_image_reference"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "qwen_image",
+      "name": "imagegen/qwen_image",
+      "description": "Generate images using Qwen Image model",
+      "documentation": "https://api.genvrresearch.com/imagegen/qwen_image",
+      "preview": "https://app.genvrresearch.com/imagegen/qwen_image"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "leanardo_lucid_origin",
+      "name": "imagegen/leanardo_lucid_origin",
+      "description": "Generate images using Leanardo Lucid Origin model",
+      "documentation": "https://api.genvrresearch.com/imagegen/leanardo_lucid_origin",
+      "preview": "https://app.genvrresearch.com/imagegen/leanardo_lucid_origin"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "google_imagen4",
+      "name": "imagegen/google_imagen4",
+      "description": "Generate images using Google's highest quality image generation model (Imagen 4 model)",
+      "documentation": "https://api.genvrresearch.com/imagegen/google_imagen4",
+      "preview": "https://app.genvrresearch.com/imagegen/google_imagen4"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "google_imagen4_ultra",
+      "name": "imagegen/google_imagen4_ultra",
+      "description": "Generate images using Google's highest quality image generation model (Imagen 4 Ultra model)",
+      "documentation": "https://api.genvrresearch.com/imagegen/google_imagen4_ultra",
+      "preview": "https://app.genvrresearch.com/imagegen/google_imagen4_ultra"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "google_imagen4_fast",
+      "name": "imagegen/google_imagen4_fast",
+      "description": "Generate images using Google's highest quality image generation model (Imagen 4 Fast model)",
+      "documentation": "https://api.genvrresearch.com/imagegen/google_imagen4_fast",
+      "preview": "https://app.genvrresearch.com/imagegen/google_imagen4_fast"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "ideogram_v3",
+      "name": "imagegen/ideogram_v3",
+      "description": "Generate images using Ideogram V3 model",
+      "documentation": "https://api.genvrresearch.com/imagegen/ideogram_v3",
+      "preview": "https://app.genvrresearch.com/imagegen/ideogram_v3"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "ideogram_v3_fast",
+      "name": "imagegen/ideogram_v3_fast",
+      "description": "Generate images using Ideogram V3 Fast model",
+      "documentation": "https://api.genvrresearch.com/imagegen/ideogram_v3_fast",
+      "preview": "https://app.genvrresearch.com/imagegen/ideogram_v3_fast"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "stable_diffusion_3_5",
+      "name": "imagegen/stable_diffusion_3_5",
+      "description": "Run Stable Diffusion 3.5 model",
+      "documentation": "https://api.genvrresearch.com/imagegen/stable_diffusion_3_5",
+      "preview": "https://app.genvrresearch.com/imagegen/stable_diffusion_3_5"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "leanardo_pheonix1",
+      "name": "imagegen/leanardo_pheonix1",
+      "description": "Run Leanardo Phoenix 1 model",
+      "documentation": "https://api.genvrresearch.com/imagegen/leanardo_pheonix1",
+      "preview": "https://app.genvrresearch.com/imagegen/leanardo_pheonix1"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "openai_dalle_3",
+      "name": "imagegen/openai_dalle_3",
+      "description": "Run OpenAI Dalle 3 model",
+      "documentation": "https://api.genvrresearch.com/imagegen/openai_dalle_3",
+      "preview": "https://app.genvrresearch.com/imagegen/openai_dalle_3"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "gpt_image1",
+      "name": "imagegen/gpt_image1",
+      "description": "Generate images using GPT Image 1 model",
+      "documentation": "https://api.genvrresearch.com/imagegen/gpt_image1",
+      "preview": "https://app.genvrresearch.com/imagegen/gpt_image1"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "flux1_1_pro",
+      "name": "imagegen/flux1_1_pro",
+      "description": "Run Flux 1.1 pro model",
+      "documentation": "https://api.genvrresearch.com/imagegen/flux1_1_pro",
+      "preview": "https://app.genvrresearch.com/imagegen/flux1_1_pro"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "flux1_1_pro_ultra",
+      "name": "imagegen/flux1_1_pro_ultra",
+      "description": "Run Flux 1.1 pro ultra model",
+      "documentation": "https://api.genvrresearch.com/imagegen/flux1_1_pro_ultra",
+      "preview": "https://app.genvrresearch.com/imagegen/flux1_1_pro_ultra"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "flux1_0_fast",
+      "name": "imagegen/flux1_0_fast",
+      "description": "Run Flux 1.0 fast model",
+      "documentation": "https://api.genvrresearch.com/imagegen/flux1_0_fast",
+      "preview": "https://app.genvrresearch.com/imagegen/flux1_0_fast"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "nirman",
+      "name": "imagegen/nirman",
+      "description": "Highly aesthetic image generation model based on SD XL base model",
+      "documentation": "https://api.genvrresearch.com/imagegen/nirman",
+      "preview": "https://app.genvrresearch.com/imagegen/nirman"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "recraft_v3",
+      "name": "imagegen/recraft_v3",
+      "description": "Run Recraft V3 model (red panda)",
+      "documentation": "https://api.genvrresearch.com/imagegen/recraft_v3",
+      "preview": "https://app.genvrresearch.com/imagegen/recraft_v3"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "recraft_v3_svg",
+      "name": "imagegen/recraft_v3_svg",
+      "description": "Run Recraft V3 svg model (red panda)",
+      "documentation": "https://api.genvrresearch.com/imagegen/recraft_v3_svg",
+      "preview": "https://app.genvrresearch.com/imagegen/recraft_v3_svg"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "storyboard",
+      "name": "imagegen/storyboard",
+      "description": "Generate storyboards using story diffusion",
+      "documentation": "https://api.genvrresearch.com/imagegen/storyboard",
+      "preview": "https://app.genvrresearch.com/imagegen/storyboard"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "nvidia_sana",
+      "name": "imagegen/nvidia_sana",
+      "description": "A fast image model with wide artistic range and resolutions up to 4096x4096",
+      "documentation": "https://api.genvrresearch.com/imagegen/nvidia_sana",
+      "preview": "https://app.genvrresearch.com/imagegen/nvidia_sana"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "minimax-image-o1",
+      "name": "imagegen/minimax-image-o1",
+      "description": "Generate images using Minimax Image O1 model",
+      "documentation": "https://api.genvrresearch.com/imagegen/minimax-image-o1",
+      "preview": "https://app.genvrresearch.com/imagegen/minimax-image-o1"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "hidream_l1_full",
+      "name": "imagegen/hidream_l1_full",
+      "description": "Generate images using Hidream L1 Full model",
+      "documentation": "https://api.genvrresearch.com/imagegen/hidream_l1_full",
+      "preview": "https://app.genvrresearch.com/imagegen/hidream_l1_full"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "freepik_f_lite",
+      "name": "imagegen/freepik_f_lite",
+      "description": "Generate images using Freepik F Lite model",
+      "documentation": "https://api.genvrresearch.com/imagegen/freepik_f_lite",
+      "preview": "https://app.genvrresearch.com/imagegen/freepik_f_lite"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "flux_dev",
+      "name": "imagegen/flux_dev",
+      "description": "Generate images using Flux Dev model",
+      "documentation": "https://api.genvrresearch.com/imagegen/flux_dev",
+      "preview": "https://app.genvrresearch.com/imagegen/flux_dev"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "hidream_e1_full",
+      "name": "imagegen/hidream_e1_full",
+      "description": "Generate images using Hidream E1 image to image model",
+      "documentation": "https://api.genvrresearch.com/imagegen/hidream_e1_full",
+      "preview": "https://app.genvrresearch.com/imagegen/hidream_e1_full"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "ideogram_v2",
+      "name": "imagegen/ideogram_v2",
+      "description": "Run Ideogram V2 model.",
+      "documentation": "https://api.genvrresearch.com/imagegen/ideogram_v2",
+      "preview": "https://app.genvrresearch.com/imagegen/ideogram_v2"
+    },
+    {
+      "category": "imagegen",
+      "subcategory": "google_imagen3",
+      "name": "imagegen/google_imagen3",
+      "description": "Generate images using Google's highest quality image generation model (Imagen 3 model)",
+      "documentation": "https://api.genvrresearch.com/imagegen/google_imagen3",
+      "preview": "https://app.genvrresearch.com/imagegen/google_imagen3"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "object_removal",
+      "name": "imgedit/object_removal",
+      "description": "Remove objects from images",
+      "documentation": "https://api.genvrresearch.com/imgedit/object_removal",
+      "preview": "https://app.genvrresearch.com/imgedit/object_removal"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "eraser",
+      "name": "imgedit/eraser",
+      "description": "Erase objects from an image using Bria AI",
+      "documentation": "https://api.genvrresearch.com/imgedit/eraser",
+      "preview": "https://app.genvrresearch.com/imgedit/eraser"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "finegrain_eraser_prompt",
+      "name": "imgedit/finegrain_eraser_prompt",
+      "description": "Erase objects from an image using prompts with Finegrain eraser",
+      "documentation": "https://api.genvrresearch.com/imgedit/finegrain_eraser_prompt",
+      "preview": "https://app.genvrresearch.com/imgedit/finegrain_eraser_prompt"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "deaging",
+      "name": "imgedit/deaging",
+      "description": "Reimagine yourself younger or older.",
+      "documentation": "https://api.genvrresearch.com/imgedit/deaging",
+      "preview": "https://app.genvrresearch.com/imgedit/deaging"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "background_change",
+      "name": "imgedit/background_change",
+      "description": "Change the background of an image.",
+      "documentation": "https://api.genvrresearch.com/imgedit/background_change",
+      "preview": "https://app.genvrresearch.com/imgedit/background_change"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "background_replace",
+      "name": "imgedit/background_replace",
+      "description": "Replace the background of an image with a new background using Bria AI",
+      "documentation": "https://api.genvrresearch.com/imgedit/background_replace",
+      "preview": "https://app.genvrresearch.com/imgedit/background_replace"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "cartoonify",
+      "name": "imgedit/cartoonify",
+      "description": "Turn a photo into a cartoon.",
+      "documentation": "https://api.genvrresearch.com/imgedit/cartoonify",
+      "preview": "https://app.genvrresearch.com/imgedit/cartoonify"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "color_correction",
+      "name": "imgedit/color_correction",
+      "description": "Correct the color of an image.",
+      "documentation": "https://api.genvrresearch.com/imgedit/color_correction",
+      "preview": "https://app.genvrresearch.com/imgedit/color_correction"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "color_correction_ddcolor",
+      "name": "imgedit/color_correction_ddcolor",
+      "description": "Colorize your old black and white pics.",
+      "documentation": "https://api.genvrresearch.com/imgedit/color_correction_ddcolor",
+      "preview": "https://app.genvrresearch.com/imgedit/color_correction_ddcolor"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "expression_change",
+      "name": "imgedit/expression_change",
+      "description": "Change the expression of a person.",
+      "documentation": "https://api.genvrresearch.com/imgedit/expression_change",
+      "preview": "https://app.genvrresearch.com/imgedit/expression_change"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "face_enhance",
+      "name": "imgedit/face_enhance",
+      "description": "Enhance facial features with professional retouching while maintaining a natural, realistic look",
+      "documentation": "https://api.genvrresearch.com/imgedit/face_enhance",
+      "preview": "https://app.genvrresearch.com/imgedit/face_enhance"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "face_enhance_codeformer",
+      "name": "imgedit/face_enhance_codeformer",
+      "description": "Enhance the face of a person.",
+      "documentation": "https://api.genvrresearch.com/imgedit/face_enhance_codeformer",
+      "preview": "https://app.genvrresearch.com/imgedit/face_enhance_codeformer"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "face_enhance_gfpgan",
+      "name": "imgedit/face_enhance_gfpgan",
+      "description": "Enhance the face of a person.",
+      "documentation": "https://api.genvrresearch.com/imgedit/face_enhance_gfpgan",
+      "preview": "https://app.genvrresearch.com/imgedit/face_enhance_gfpgan"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "face_realism",
+      "name": "imgedit/face_realism",
+      "description": "Add details to faces, enhance face features, remove blur.",
+      "documentation": "https://api.genvrresearch.com/imgedit/face_realism",
+      "preview": "https://app.genvrresearch.com/imgedit/face_realism"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "hair_change",
+      "name": "imgedit/hair_change",
+      "description": "Change the hair of a person.",
+      "documentation": "https://api.genvrresearch.com/imgedit/hair_change",
+      "preview": "https://app.genvrresearch.com/imgedit/hair_change"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "professional_shot",
+      "name": "imgedit/professional_shot",
+      "description": "Take a professional photo of a person.",
+      "documentation": "https://api.genvrresearch.com/imgedit/professional_shot",
+      "preview": "https://app.genvrresearch.com/imgedit/professional_shot"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "scene_composition",
+      "name": "imgedit/scene_composition",
+      "description": "Change the scene of an image.",
+      "documentation": "https://api.genvrresearch.com/imgedit/scene_composition",
+      "preview": "https://app.genvrresearch.com/imgedit/scene_composition"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "stylize_flux",
+      "name": "imgedit/stylize_flux",
+      "description": "Edit the style of an image using flux.",
+      "documentation": "https://api.genvrresearch.com/imgedit/stylize_flux",
+      "preview": "https://app.genvrresearch.com/imgedit/stylize_flux"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "stylize_sdxl",
+      "name": "imgedit/stylize_sdxl",
+      "description": "Edit the style of an image using sdxl.",
+      "documentation": "https://api.genvrresearch.com/imgedit/stylize_sdxl",
+      "preview": "https://app.genvrresearch.com/imgedit/stylize_sdxl"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "face_to_many_sdxl",
+      "name": "imgedit/face_to_many_sdxl",
+      "description": "Turn a face into 3D, emoji, pixel art, video game, claymation or toy.",
+      "documentation": "https://api.genvrresearch.com/imgedit/face_to_many_sdxl",
+      "preview": "https://app.genvrresearch.com/imgedit/face_to_many_sdxl"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "face_to_sticker_sdxl",
+      "name": "imgedit/face_to_sticker_sdxl",
+      "description": "Turn a face into a sticker.",
+      "documentation": "https://api.genvrresearch.com/imgedit/face_to_sticker_sdxl",
+      "preview": "https://app.genvrresearch.com/imgedit/face_to_sticker_sdxl"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "photomakeover_instant_id",
+      "name": "imgedit/photomakeover_instant_id",
+      "description": "Reimagine yourself in different and stunning poses. Use this for high accuracy and less creativity.",
+      "documentation": "https://api.genvrresearch.com/imgedit/photomakeover_instant_id",
+      "preview": "https://app.genvrresearch.com/imgedit/photomakeover_instant_id"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "photomakeover_photomaker",
+      "name": "imgedit/photomakeover_photomaker",
+      "description": "Reimagine yourself in different and stunning poses. Use this for high creativity and less accuracy.",
+      "documentation": "https://api.genvrresearch.com/imgedit/photomakeover_photomaker",
+      "preview": "https://app.genvrresearch.com/imgedit/photomakeover_photomaker"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "interior_remodel",
+      "name": "imgedit/interior_remodel",
+      "description": "Reimagine your home interiors with our revolutionary makeover tool. Use this for non-empty room images.",
+      "documentation": "https://api.genvrresearch.com/imgedit/interior_remodel",
+      "preview": "https://app.genvrresearch.com/imgedit/interior_remodel"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "interior_construct",
+      "name": "imgedit/interior_construct",
+      "description": "Reimagine your home interiors with our revolutionary makeover tool. Use this to reimagine empty room images.",
+      "documentation": "https://api.genvrresearch.com/imgedit/interior_construct",
+      "preview": "https://app.genvrresearch.com/imgedit/interior_construct"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "product_shot",
+      "name": "imgedit/product_shot",
+      "description": "Create a product shot using Bria AI's product shot model.",
+      "documentation": "https://api.genvrresearch.com/imgedit/product_shot",
+      "preview": "https://app.genvrresearch.com/imgedit/product_shot"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "post_processing_effects",
+      "name": "imgedit/post_processing_effects",
+      "description": "Apply post processing effects to an image.",
+      "documentation": "https://api.genvrresearch.com/imgedit/post_processing_effects",
+      "preview": "https://app.genvrresearch.com/imgedit/post_processing_effects"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "daytime_change",
+      "name": "imgedit/daytime_change",
+      "description": "Change the daytime of an image.",
+      "documentation": "https://api.genvrresearch.com/imgedit/daytime_change",
+      "preview": "https://app.genvrresearch.com/imgedit/daytime_change"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "weather_effect",
+      "name": "imgedit/weather_effect",
+      "description": "Change the weather of an image.",
+      "documentation": "https://api.genvrresearch.com/imgedit/weather_effect",
+      "preview": "https://app.genvrresearch.com/imgedit/weather_effect"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "text_removal",
+      "name": "imgedit/text_removal",
+      "description": "Remove text from an image.",
+      "documentation": "https://api.genvrresearch.com/imgedit/text_removal",
+      "preview": "https://app.genvrresearch.com/imgedit/text_removal"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "filters",
+      "name": "imgedit/filters",
+      "description": "Apply filters to an image.",
+      "documentation": "https://api.genvrresearch.com/imgedit/filters",
+      "preview": "https://app.genvrresearch.com/imgedit/filters"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "restore_image",
+      "name": "imgedit/restore_image",
+      "description": "Restore an image.",
+      "documentation": "https://api.genvrresearch.com/imgedit/restore_image",
+      "preview": "https://app.genvrresearch.com/imgedit/restore_image"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "face_to_many",
+      "name": "imgedit/face_to_many",
+      "description": "Turn a face into a character in style.",
+      "documentation": "https://api.genvrresearch.com/imgedit/face_to_many",
+      "preview": "https://app.genvrresearch.com/imgedit/face_to_many"
+    },
+    {
+      "category": "imgedit",
+      "subcategory": "magic_image_refiner",
+      "name": "imgedit/magic_image_refiner",
+      "description": "Refine an image.",
+      "documentation": "https://api.genvrresearch.com/imgedit/magic_image_refiner",
+      "preview": "https://app.genvrresearch.com/imgedit/magic_image_refiner"
+    },
+    {
+      "category": "imgutils_control",
+      "subcategory": "scribble2img",
+      "name": "imgutils_control/scribble2img",
+      "description": "Convert your scribble drawings into real life images",
+      "documentation": "https://api.genvrresearch.com/imgutils_control/scribble2img",
+      "preview": "https://app.genvrresearch.com/imgutils_control/scribble2img"
+    },
+    {
+      "category": "imgutils_control",
+      "subcategory": "canny",
+      "name": "imgutils_control/canny",
+      "description": "Generate an image using reference edges",
+      "documentation": "https://api.genvrresearch.com/imgutils_control/canny",
+      "preview": "https://app.genvrresearch.com/imgutils_control/canny"
+    },
+    {
+      "category": "imgutils_control",
+      "subcategory": "pose",
+      "name": "imgutils_control/pose",
+      "description": "Generate an image using reference pose",
+      "documentation": "https://api.genvrresearch.com/imgutils_control/pose",
+      "preview": "https://app.genvrresearch.com/imgutils_control/pose"
+    },
+    {
+      "category": "imgutils_control",
+      "subcategory": "depth",
+      "name": "imgutils_control/depth",
+      "description": "Generate an image using reference depth",
+      "documentation": "https://api.genvrresearch.com/imgutils_control/depth",
+      "preview": "https://app.genvrresearch.com/imgutils_control/depth"
+    },
+    {
+      "category": "imgutils_control",
+      "subcategory": "hed",
+      "name": "imgutils_control/hed",
+      "description": "Generate an image using reference hed",
+      "documentation": "https://api.genvrresearch.com/imgutils_control/hed",
+      "preview": "https://app.genvrresearch.com/imgutils_control/hed"
+    },
+    {
+      "category": "imgutils_control",
+      "subcategory": "controlnet_preprocessors",
+      "name": "imgutils_control/controlnet_preprocessors",
+      "description": "Generate reference controlnet preprocessing outputs for an image",
+      "documentation": "https://api.genvrresearch.com/imgutils_control/controlnet_preprocessors",
+      "preview": "https://app.genvrresearch.com/imgutils_control/controlnet_preprocessors"
+    },
+    {
+      "category": "imgutils_transfer",
+      "subcategory": "face",
+      "name": "imgutils_transfer/face",
+      "description": "Swap faces in images",
+      "documentation": "https://api.genvrresearch.com/imgutils_transfer/face",
+      "preview": "https://app.genvrresearch.com/imgutils_transfer/face"
+    },
+    {
+      "category": "imgutils_transfer",
+      "subcategory": "garment",
+      "name": "imgutils_transfer/garment",
+      "description": "Put clothing on a person",
+      "documentation": "https://api.genvrresearch.com/imgutils_transfer/garment",
+      "preview": "https://app.genvrresearch.com/imgutils_transfer/garment"
+    },
+    {
+      "category": "imgutils_transfer",
+      "subcategory": "material",
+      "name": "imgutils_transfer/material",
+      "description": "Transfer material from one image to another",
+      "documentation": "https://api.genvrresearch.com/imgutils_transfer/material",
+      "preview": "https://app.genvrresearch.com/imgutils_transfer/material"
+    },
+    {
+      "category": "imgutils_transfer",
+      "subcategory": "style",
+      "name": "imgutils_transfer/style",
+      "description": "Transfer the style from one image to another image",
+      "documentation": "https://api.genvrresearch.com/imgutils_transfer/style",
+      "preview": "https://app.genvrresearch.com/imgutils_transfer/style"
+    },
+    {
+      "category": "imgutils_transfer",
+      "subcategory": "fashn_tryon",
+      "name": "imgutils_transfer/fashn_tryon",
+      "description": "Put clothing on a person using Fashion AI's virtual tryon v1.6",
+      "documentation": "https://api.genvrresearch.com/imgutils_transfer/fashn_tryon",
+      "preview": "https://app.genvrresearch.com/imgutils_transfer/fashn_tryon"
+    },
+    {
+      "category": "imgutils_transfer",
+      "subcategory": "easel_face_swap",
+      "name": "imgutils_transfer/easel_face_swap",
+      "description": "Swap faces in images using Easel",
+      "documentation": "https://api.genvrresearch.com/imgutils_transfer/easel_face_swap",
+      "preview": "https://app.genvrresearch.com/imgutils_transfer/easel_face_swap"
+    },
+    {
+      "category": "imgutils_transfer",
+      "subcategory": "easel_virtual_tryon",
+      "name": "imgutils_transfer/easel_virtual_tryon",
+      "description": "Put clothing on a person using Easel's virtual tryon",
+      "documentation": "https://api.genvrresearch.com/imgutils_transfer/easel_virtual_tryon",
+      "preview": "https://app.genvrresearch.com/imgutils_transfer/easel_virtual_tryon"
+    },
+    {
+      "category": "imgutils_transfer",
+      "subcategory": "easel_fashion_photoshoot",
+      "name": "imgutils_transfer/easel_fashion_photoshoot",
+      "description": "Put clothing on a person using Easel's fashion photoshoot",
+      "documentation": "https://api.genvrresearch.com/imgutils_transfer/easel_fashion_photoshoot",
+      "preview": "https://app.genvrresearch.com/imgutils_transfer/easel_fashion_photoshoot"
     },
     {
       "category": "imgutils",
-      "subcategory": "bytedance_seededit4",
-      "name": "imgutils/bytedance_seededit4",
-      "description": "Curated model: bytedance_seededit4"
+      "subcategory": "flux_spro_dev",
+      "name": "imgutils/flux_spro_dev",
+      "description": "Edit images using Flux Spro Dev model",
+      "documentation": "https://api.genvrresearch.com/imgutils/flux_spro_dev",
+      "preview": "https://app.genvrresearch.com/imgutils/flux_spro_dev"
     },
     {
       "category": "imgutils",
       "subcategory": "google_nano_banana",
       "name": "imgutils/google_nano_banana",
-      "description": "Curated model: google_nano_banana"
+      "description": "Edit images using Google Nano Banana model",
+      "documentation": "https://api.genvrresearch.com/imgutils/google_nano_banana",
+      "preview": "https://app.genvrresearch.com/imgutils/google_nano_banana"
     },
     {
-      "category": "vidutils",
-      "subcategory": "creatify_lipsync",
-      "name": "vidutils/creatify_lipsync",
-      "description": "Curated model: creatify_lipsync"
+      "category": "imgutils",
+      "subcategory": "variations",
+      "name": "imgutils/variations",
+      "description": "Open-weight image variation model. Create new versions while preserving key elements of your original. Uses Flux redux model.",
+      "documentation": "https://api.genvrresearch.com/imgutils/variations",
+      "preview": "https://app.genvrresearch.com/imgutils/variations"
     },
     {
-      "category": "vidutils",
-      "subcategory": "runway_aleph",
-      "name": "vidutils/runway_aleph",
-      "description": "Curated model: runway_aleph"
+      "category": "imgutils",
+      "subcategory": "inpainting",
+      "name": "imgutils/inpainting",
+      "description": "Professional inpainting and outpainting model with state-of-the-art performance. Edit or extend images with natural, seamless results.",
+      "documentation": "https://api.genvrresearch.com/imgutils/inpainting",
+      "preview": "https://app.genvrresearch.com/imgutils/inpainting"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "qwen_image_edit",
+      "name": "imgutils/qwen_image_edit",
+      "description": "Edit images using Qwen Image Edit model",
+      "documentation": "https://api.genvrresearch.com/imgutils/qwen_image_edit",
+      "preview": "https://app.genvrresearch.com/imgutils/qwen_image_edit"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "sa2va_26b_image",
+      "name": "imgutils/sa2va_26b_image",
+      "description": "Segment an image using Bytedance's SA2VA 26B model",
+      "documentation": "https://api.genvrresearch.com/imgutils/sa2va_26b_image",
+      "preview": "https://app.genvrresearch.com/imgutils/sa2va_26b_image"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "gemini_flash2_imgedit",
+      "name": "imgutils/gemini_flash2_imgedit",
+      "description": "Edit images using Gemini Flash 2 model",
+      "documentation": "https://api.genvrresearch.com/imgutils/gemini_flash2_imgedit",
+      "preview": "https://app.genvrresearch.com/imgutils/gemini_flash2_imgedit"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "gemini_flash2_imgedit_multi",
+      "name": "imgutils/gemini_flash2_imgedit_multi",
+      "description": "Edit images using Gemini Flash 2 model",
+      "documentation": "https://api.genvrresearch.com/imgutils/gemini_flash2_imgedit_multi",
+      "preview": "https://app.genvrresearch.com/imgutils/gemini_flash2_imgedit_multi"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "step1x_edit",
+      "name": "imgutils/step1x_edit",
+      "description": "Edit images using Step 1x Edit model",
+      "documentation": "https://api.genvrresearch.com/imgutils/step1x_edit",
+      "preview": "https://app.genvrresearch.com/imgutils/step1x_edit"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "bytedance_seededit3",
+      "name": "imgutils/bytedance_seededit3",
+      "description": "Edit images using Bytedance SeedEdit 3 model",
+      "documentation": "https://api.genvrresearch.com/imgutils/bytedance_seededit3",
+      "preview": "https://app.genvrresearch.com/imgutils/bytedance_seededit3"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "bytedance_seededit4",
+      "name": "imgutils/bytedance_seededit4",
+      "description": "Edit images using Bytedance SeedEdit 4 model",
+      "documentation": "https://api.genvrresearch.com/imgutils/bytedance_seededit4",
+      "preview": "https://app.genvrresearch.com/imgutils/bytedance_seededit4"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "topaz_upscale",
+      "name": "imgutils/topaz_upscale",
+      "description": "Upscale images using Topaz Upscale model",
+      "documentation": "https://api.genvrresearch.com/imgutils/topaz_upscale",
+      "preview": "https://app.genvrresearch.com/imgutils/topaz_upscale"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "recraft_crisp_upscale",
+      "name": "imgutils/recraft_crisp_upscale",
+      "description": "Designed to make images sharper and cleaner, Crisp Upscale increases overall quality, making visuals suitable for web use or print-ready materials.",
+      "documentation": "https://api.genvrresearch.com/imgutils/recraft_crisp_upscale",
+      "preview": "https://app.genvrresearch.com/imgutils/recraft_crisp_upscale"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "recraft_creative_upscale",
+      "name": "imgutils/recraft_creative_upscale",
+      "description": "Upscale your images to 2k or 4k resolution using recraft creative upscale model",
+      "documentation": "https://api.genvrresearch.com/imgutils/recraft_creative_upscale",
+      "preview": "https://app.genvrresearch.com/imgutils/recraft_creative_upscale"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "ideogram_upscale",
+      "name": "imgutils/ideogram_upscale",
+      "description": "Upscale your images to 2k or 4k resolution using ideogram upscale model",
+      "documentation": "https://api.genvrresearch.com/imgutils/ideogram_upscale",
+      "preview": "https://app.genvrresearch.com/imgutils/ideogram_upscale"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "ideogram_character",
+      "name": "imgutils/ideogram_character",
+      "description": "Generate a character using ideogram character model",
+      "documentation": "https://api.genvrresearch.com/imgutils/ideogram_character",
+      "preview": "https://app.genvrresearch.com/imgutils/ideogram_character"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "flux_kontext_dev",
+      "name": "imgutils/flux_kontext_dev",
+      "description": "Edit images using Flux Kontext Dev model",
+      "documentation": "https://api.genvrresearch.com/imgutils/flux_kontext_dev",
+      "preview": "https://app.genvrresearch.com/imgutils/flux_kontext_dev"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "flux_kontext_pro",
+      "name": "imgutils/flux_kontext_pro",
+      "description": "Edit images using Flux Kontext Pro model",
+      "documentation": "https://api.genvrresearch.com/imgutils/flux_kontext_pro",
+      "preview": "https://app.genvrresearch.com/imgutils/flux_kontext_pro"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "flux_kontext_max",
+      "name": "imgutils/flux_kontext_max",
+      "description": "Edit images using Flux Kontext Max model",
+      "documentation": "https://api.genvrresearch.com/imgutils/flux_kontext_max",
+      "preview": "https://app.genvrresearch.com/imgutils/flux_kontext_max"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "flux_kontext_pro_multi",
+      "name": "imgutils/flux_kontext_pro_multi",
+      "description": "Edit images using Flux Kontext Pro Multi model",
+      "documentation": "https://api.genvrresearch.com/imgutils/flux_kontext_pro_multi",
+      "preview": "https://app.genvrresearch.com/imgutils/flux_kontext_pro_multi"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "gpt_image1_edit",
+      "name": "imgutils/gpt_image1_edit",
+      "description": "Edit images using GPT Image 1 model",
+      "documentation": "https://api.genvrresearch.com/imgutils/gpt_image1_edit",
+      "preview": "https://app.genvrresearch.com/imgutils/gpt_image1_edit"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "bytedance_bagel",
+      "name": "imgutils/bytedance_bagel",
+      "description": "Edit images using Bytedance Bagel model",
+      "documentation": "https://api.genvrresearch.com/imgutils/bytedance_bagel",
+      "preview": "https://app.genvrresearch.com/imgutils/bytedance_bagel"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "luma_reframe_image",
+      "name": "imgutils/luma_reframe_image",
+      "description": "Change aspect ratio of images using Luma Reframe Image model",
+      "documentation": "https://api.genvrresearch.com/imgutils/luma_reframe_image",
+      "preview": "https://app.genvrresearch.com/imgutils/luma_reframe_image"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "easel_avatars",
+      "name": "imgutils/easel_avatars",
+      "description": "Generate avatars using Easel",
+      "documentation": "https://api.genvrresearch.com/imgutils/easel_avatars",
+      "preview": "https://app.genvrresearch.com/imgutils/easel_avatars"
+    },
+    {
+      "category": "imgutils",
+      "subcategory": "tencent_instant_character",
+      "name": "imgutils/tencent_instant_character",
+      "description": "Turn a face into a character.",
+      "documentation": "https://api.genvrresearch.com/imgutils/tencent_instant_character",
+      "preview": "https://app.genvrresearch.com/imgutils/tencent_instant_character"
+    },
+    {
+      "category": "3dgen",
+      "subcategory": "hunyuan2_3d_2_1",
+      "name": "3dgen/hunyuan2_3d_2_1",
+      "description": "Generate 3D models using Tencent's Hunyuan 3D 2.1 model.",
+      "documentation": "https://api.genvrresearch.com/3dgen/hunyuan2_3d_2_1",
+      "preview": "https://app.genvrresearch.com/3dgen/hunyuan2_3d_2_1"
+    },
+    {
+      "category": "3dgen",
+      "subcategory": "trellis",
+      "name": "3dgen/trellis",
+      "description": "GenVR's 3D generation toolkit.",
+      "documentation": "https://api.genvrresearch.com/3dgen/trellis",
+      "preview": "https://app.genvrresearch.com/3dgen/trellis"
+    },
+    {
+      "category": "3dgen",
+      "subcategory": "panorama",
+      "name": "3dgen/panorama",
+      "description": "Generate panoramic images using Flux 360 model.",
+      "documentation": "https://api.genvrresearch.com/3dgen/panorama",
+      "preview": "https://app.genvrresearch.com/3dgen/panorama"
+    },
+    {
+      "category": "3dgen",
+      "subcategory": "hunyuan2_3d",
+      "name": "3dgen/hunyuan2_3d",
+      "description": "Generate 3D models using Tencent's Hunyuan 2.3D model.",
+      "documentation": "https://api.genvrresearch.com/3dgen/hunyuan2_3d",
+      "preview": "https://app.genvrresearch.com/3dgen/hunyuan2_3d"
+    },
+    {
+      "category": "3dgen",
+      "subcategory": "hunyuan_3d_2mv",
+      "name": "3dgen/hunyuan_3d_2mv",
+      "description": "Generate 3D models using Tencent's Hunyuan 3D 2MV model.",
+      "documentation": "https://api.genvrresearch.com/3dgen/hunyuan_3d_2mv",
+      "preview": "https://app.genvrresearch.com/3dgen/hunyuan_3d_2mv"
+    },
+    {
+      "category": "3dgen",
+      "subcategory": "tripo3d_2_5",
+      "name": "3dgen/tripo3d_2_5",
+      "description": "Generate 3D models using Tripo 3D 2.5 model.",
+      "documentation": "https://api.genvrresearch.com/3dgen/tripo3d_2_5",
+      "preview": "https://app.genvrresearch.com/3dgen/tripo3d_2_5"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "microsoft_vibevoice",
+      "name": "audiogen/microsoft_vibevoice",
+      "description": "Generate realistic dialogue audio from text, including non-verbal cues and voice cloning",
+      "documentation": "https://api.genvrresearch.com/audiogen/microsoft_vibevoice",
+      "preview": "https://app.genvrresearch.com/audiogen/microsoft_vibevoice"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "chatterbox_tts",
+      "name": "audiogen/chatterbox_tts",
+      "description": "Generate realistic dialogue audio from text, including non-verbal cues and voice cloning",
+      "documentation": "https://api.genvrresearch.com/audiogen/chatterbox_tts",
+      "preview": "https://app.genvrresearch.com/audiogen/chatterbox_tts"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "chatterbox_multilingual",
+      "name": "audiogen/chatterbox_multilingual",
+      "description": "Generate realistic dialogue audio from text, including non-verbal cues and voice cloning",
+      "documentation": "https://api.genvrresearch.com/audiogen/chatterbox_multilingual",
+      "preview": "https://app.genvrresearch.com/audiogen/chatterbox_multilingual"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "dia",
+      "name": "audiogen/dia",
+      "description": "Dia 1.6B by Nari Labs, Generates realistic dialogue audio from text, including non-verbal cues and voice cloning",
+      "documentation": "https://api.genvrresearch.com/audiogen/dia",
+      "preview": "https://app.genvrresearch.com/audiogen/dia"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "elevenlabs_sound_effects",
+      "name": "audiogen/elevenlabs_sound_effects",
+      "description": "Generate sound effects using ElevenLabs Sound Effects model.",
+      "documentation": "https://api.genvrresearch.com/audiogen/elevenlabs_sound_effects",
+      "preview": "https://app.genvrresearch.com/audiogen/elevenlabs_sound_effects"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "elevenlabs_sound_effects2",
+      "name": "audiogen/elevenlabs_sound_effects2",
+      "description": "Generate sound effects using ElevenLabs Sound Effects 2 model.",
+      "documentation": "https://api.genvrresearch.com/audiogen/elevenlabs_sound_effects2",
+      "preview": "https://app.genvrresearch.com/audiogen/elevenlabs_sound_effects2"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "minimax_speech_02_hd",
+      "name": "audiogen/minimax_speech_02_hd",
+      "description": "Text-to-Audio (T2A) that offers voice synthesis, emotional expression, and multilingual capabilities. Optimized for high-fidelity applications like voiceovers and audiobooks.",
+      "documentation": "https://api.genvrresearch.com/audiogen/minimax_speech_02_hd",
+      "preview": "https://app.genvrresearch.com/audiogen/minimax_speech_02_hd"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "ace_step_text2music",
+      "name": "audiogen/ace_step_text2music",
+      "description": "Generate music from text using Ace Step Text2Music model.",
+      "documentation": "https://api.genvrresearch.com/audiogen/ace_step_text2music",
+      "preview": "https://app.genvrresearch.com/audiogen/ace_step_text2music"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "google_lyria2",
+      "name": "audiogen/google_lyria2",
+      "description": "Lyria 2 is a music generation model that produces 48kHz stereo audio through text-based prompts",
+      "documentation": "https://api.genvrresearch.com/audiogen/google_lyria2",
+      "preview": "https://app.genvrresearch.com/audiogen/google_lyria2"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "cartesia_sonic2",
+      "name": "audiogen/cartesia_sonic2",
+      "description": "Cartesia Sonic 2 is a text-to-speech model that generates realistic speech from text",
+      "documentation": "https://api.genvrresearch.com/audiogen/cartesia_sonic2",
+      "preview": "https://app.genvrresearch.com/audiogen/cartesia_sonic2"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "sonauto_text2music",
+      "name": "audiogen/sonauto_text2music",
+      "description": "Generate music from text using Sonauto Text2Music model.",
+      "documentation": "https://api.genvrresearch.com/audiogen/sonauto_text2music",
+      "preview": "https://app.genvrresearch.com/audiogen/sonauto_text2music"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "sonauto_text2music_extend",
+      "name": "audiogen/sonauto_text2music_extend",
+      "description": "Extend a song using Sonauto Text2Music Extend model.",
+      "documentation": "https://api.genvrresearch.com/audiogen/sonauto_text2music_extend",
+      "preview": "https://app.genvrresearch.com/audiogen/sonauto_text2music_extend"
+    },
+    {
+      "category": "audiogen",
+      "subcategory": "minimax_music1_5",
+      "name": "audiogen/minimax_music1_5",
+      "description": "Generate music from text using Minimax 1.5 Music model.",
+      "documentation": "https://api.genvrresearch.com/audiogen/minimax_music1_5",
+      "preview": "https://app.genvrresearch.com/audiogen/minimax_music1_5"
     },
     {
       "category": "vidutils",
       "subcategory": "veed_fabric1",
       "name": "vidutils/veed_fabric1",
-      "description": "Curated model: veed_fabric1"
+      "description": "Generate lipsync for a video using Veed Fabric 1 model",
+      "documentation": "https://api.genvrresearch.com/vidutils/veed_fabric1",
+      "preview": "https://app.genvrresearch.com/vidutils/veed_fabric1"
     },
     {
-      "category": "basicutils",
-      "subcategory": "audio_video_merge",
-      "name": "basicutils/audio_video_merge",
-      "description": "Curated model: audio_video_merge"
+      "category": "vidutils",
+      "subcategory": "heygen_video_translate",
+      "name": "vidutils/heygen_video_translate",
+      "description": "Translate a video using Heygen Video Translate model",
+      "documentation": "https://api.genvrresearch.com/vidutils/heygen_video_translate",
+      "preview": "https://app.genvrresearch.com/vidutils/heygen_video_translate"
     },
     {
-      "category": "basicutils",
-      "subcategory": "video_video_merge",
-      "name": "basicutils/video_video_merge",
-      "description": "Curated model: video_video_merge"
+      "category": "vidutils",
+      "subcategory": "mirelo_add_audio",
+      "name": "vidutils/mirelo_add_audio",
+      "description": "Add audio to a video using Mirelo Add Audio model",
+      "documentation": "https://api.genvrresearch.com/vidutils/mirelo_add_audio",
+      "preview": "https://app.genvrresearch.com/vidutils/mirelo_add_audio"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "kling_avatar",
+      "name": "vidutils/kling_avatar",
+      "description": "Generate image based lip sync using Kling Avatar model.",
+      "documentation": "https://api.genvrresearch.com/vidutils/kling_avatar",
+      "preview": "https://app.genvrresearch.com/vidutils/kling_avatar"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "kling_avatar_pro",
+      "name": "vidutils/kling_avatar_pro",
+      "description": "Generate image based lip sync using Kling Avatar Pro model.",
+      "documentation": "https://api.genvrresearch.com/vidutils/kling_avatar_pro",
+      "preview": "https://app.genvrresearch.com/vidutils/kling_avatar_pro"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "lucy_edit_dev",
+      "name": "vidutils/lucy_edit_dev",
+      "description": "Edit a video using Lucy Edit Dev model",
+      "documentation": "https://api.genvrresearch.com/vidutils/lucy_edit_dev",
+      "preview": "https://app.genvrresearch.com/vidutils/lucy_edit_dev"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "wan2_2_animate_move",
+      "name": "vidutils/wan2_2_animate_move",
+      "description": "Animate a video using Wan 2.2 Animate Move model",
+      "documentation": "https://api.genvrresearch.com/vidutils/wan2_2_animate_move",
+      "preview": "https://app.genvrresearch.com/vidutils/wan2_2_animate_move"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "wan2_2_animate_replace",
+      "name": "vidutils/wan2_2_animate_replace",
+      "description": "Replace a video using Wan 2.2 Animate Replace model",
+      "documentation": "https://api.genvrresearch.com/vidutils/wan2_2_animate_replace",
+      "preview": "https://app.genvrresearch.com/vidutils/wan2_2_animate_replace"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "bria_upscale",
+      "name": "vidutils/bria_upscale",
+      "description": "Upscale a video using Bria Upscale",
+      "documentation": "https://api.genvrresearch.com/vidutils/bria_upscale",
+      "preview": "https://app.genvrresearch.com/vidutils/bria_upscale"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "hunyuan_foley_add_audio",
+      "name": "vidutils/hunyuan_foley_add_audio",
+      "description": "Add audio to a video using Hunyuan Foley Add Audio model",
+      "documentation": "https://api.genvrresearch.com/vidutils/hunyuan_foley_add_audio",
+      "preview": "https://app.genvrresearch.com/vidutils/hunyuan_foley_add_audio"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "argil_avatar_t2v",
+      "name": "vidutils/argil_avatar_t2v",
+      "description": "Generate image based lip sync using Argil Avatar T2V model.",
+      "documentation": "https://api.genvrresearch.com/vidutils/argil_avatar_t2v",
+      "preview": "https://app.genvrresearch.com/vidutils/argil_avatar_t2v"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "argil_avatar_a2v",
+      "name": "vidutils/argil_avatar_a2v",
+      "description": "Generate image based lip sync using Argil Avatar A2V model.",
+      "documentation": "https://api.genvrresearch.com/vidutils/argil_avatar_a2v",
+      "preview": "https://app.genvrresearch.com/vidutils/argil_avatar_a2v"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "runway_aleph",
+      "name": "vidutils/runway_aleph",
+      "description": "Modify videos using Runway Aleph model",
+      "documentation": "https://api.genvrresearch.com/vidutils/runway_aleph",
+      "preview": "https://app.genvrresearch.com/vidutils/runway_aleph"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "creatify_lipsync",
+      "name": "vidutils/creatify_lipsync",
+      "description": "Generate video based lip sync using Creatify Lipsync model.",
+      "documentation": "https://api.genvrresearch.com/vidutils/creatify_lipsync",
+      "preview": "https://app.genvrresearch.com/vidutils/creatify_lipsync"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "stable_avatar",
+      "name": "vidutils/stable_avatar",
+      "description": "Generate image based lip sync using Stable Avatar model.",
+      "documentation": "https://api.genvrresearch.com/vidutils/stable_avatar",
+      "preview": "https://app.genvrresearch.com/vidutils/stable_avatar"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "sync_lipsync2",
+      "name": "vidutils/sync_lipsync2",
+      "description": "Generate video based lip sync using Sync Lipsync2 model.",
+      "documentation": "https://api.genvrresearch.com/vidutils/sync_lipsync2",
+      "preview": "https://app.genvrresearch.com/vidutils/sync_lipsync2"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "sync_lipsync2_pro",
+      "name": "vidutils/sync_lipsync2_pro",
+      "description": "Generate video based lip sync using Sync Lipsync2 Pro model.",
+      "documentation": "https://api.genvrresearch.com/vidutils/sync_lipsync2_pro",
+      "preview": "https://app.genvrresearch.com/vidutils/sync_lipsync2_pro"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "multitalk_lipsync_single",
+      "name": "vidutils/multitalk_lipsync_single",
+      "description": "Generate image based lip sync for a single character using Multitalk Lipsync model",
+      "documentation": "https://api.genvrresearch.com/vidutils/multitalk_lipsync_single",
+      "preview": "https://app.genvrresearch.com/vidutils/multitalk_lipsync_single"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "multitalk_lipsync_multi",
+      "name": "vidutils/multitalk_lipsync_multi",
+      "description": "Generate image based lip sync for multiple characters using Multitalk Lipsync model",
+      "documentation": "https://api.genvrresearch.com/vidutils/multitalk_lipsync_multi",
+      "preview": "https://app.genvrresearch.com/vidutils/multitalk_lipsync_multi"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "lipsync_video",
+      "name": "vidutils/lipsync_video",
+      "description": "Generate video based lip sync using Latent Sync.",
+      "documentation": "https://api.genvrresearch.com/vidutils/lipsync_video",
+      "preview": "https://app.genvrresearch.com/vidutils/lipsync_video"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "bytedance_omnihuman",
+      "name": "vidutils/bytedance_omnihuman",
+      "description": "Generate image based lip sync using Bytedance OmniHuman model",
+      "documentation": "https://api.genvrresearch.com/vidutils/bytedance_omnihuman",
+      "preview": "https://app.genvrresearch.com/vidutils/bytedance_omnihuman"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "echomimic_v3",
+      "name": "vidutils/echomimic_v3",
+      "description": "Generate image based lip sync using Echo Mimic V3 model.",
+      "documentation": "https://api.genvrresearch.com/vidutils/echomimic_v3",
+      "preview": "https://app.genvrresearch.com/vidutils/echomimic_v3"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "infinitalk",
+      "name": "vidutils/infinitalk",
+      "description": "Generate image based lip sync using Infinitalk model.",
+      "documentation": "https://api.genvrresearch.com/vidutils/infinitalk",
+      "preview": "https://app.genvrresearch.com/vidutils/infinitalk"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "videobgremove",
+      "name": "vidutils/videobgremove",
+      "description": "Remove Background from a video",
+      "documentation": "https://api.genvrresearch.com/vidutils/videobgremove",
+      "preview": "https://app.genvrresearch.com/vidutils/videobgremove"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "videobgremove_bria",
+      "name": "vidutils/videobgremove_bria",
+      "description": "Remove Background from a video using Bria AI",
+      "documentation": "https://api.genvrresearch.com/vidutils/videobgremove_bria",
+      "preview": "https://app.genvrresearch.com/vidutils/videobgremove_bria"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "topaz_upscale",
+      "name": "vidutils/topaz_upscale",
+      "description": "Upscale a video using Topaz Video Upscale",
+      "documentation": "https://api.genvrresearch.com/vidutils/topaz_upscale",
+      "preview": "https://app.genvrresearch.com/vidutils/topaz_upscale"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "runway_upscale",
+      "name": "vidutils/runway_upscale",
+      "description": "Upscale a video using Runway Upscale",
+      "documentation": "https://api.genvrresearch.com/vidutils/runway_upscale",
+      "preview": "https://app.genvrresearch.com/vidutils/runway_upscale"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "runway_act2",
+      "name": "vidutils/runway_act2",
+      "description": "Motion transfer on a video using Runway Act2",
+      "documentation": "https://api.genvrresearch.com/vidutils/runway_act2",
+      "preview": "https://app.genvrresearch.com/vidutils/runway_act2"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "videoupscale",
+      "name": "vidutils/videoupscale",
+      "description": "Upscale a video using Real-ESR-GAN",
+      "documentation": "https://api.genvrresearch.com/vidutils/videoupscale",
+      "preview": "https://app.genvrresearch.com/vidutils/videoupscale"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "mmaudio",
+      "name": "vidutils/mmaudio",
+      "description": "Generate audio for a video using MMAudio V2 model",
+      "documentation": "https://api.genvrresearch.com/vidutils/mmaudio",
+      "preview": "https://app.genvrresearch.com/vidutils/mmaudio"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "thinksound",
+      "name": "vidutils/thinksound",
+      "description": "Add audio or music to a video using Thinksound model",
+      "documentation": "https://api.genvrresearch.com/vidutils/thinksound",
+      "preview": "https://app.genvrresearch.com/vidutils/thinksound"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "videofacerestore",
+      "name": "vidutils/videofacerestore",
+      "description": "Restore faces in videos using SVFR framework",
+      "documentation": "https://api.genvrresearch.com/vidutils/videofacerestore",
+      "preview": "https://app.genvrresearch.com/vidutils/videofacerestore"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "sa2va_26b_video",
+      "name": "vidutils/sa2va_26b_video",
+      "description": "Segment a video using Bytedance's SA2VA 26B model",
+      "documentation": "https://api.genvrresearch.com/vidutils/sa2va_26b_video",
+      "preview": "https://app.genvrresearch.com/vidutils/sa2va_26b_video"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "sonic",
+      "name": "vidutils/sonic",
+      "description": "Generate realistic talking face animations from a portrait image and audio",
+      "documentation": "https://api.genvrresearch.com/vidutils/sonic",
+      "preview": "https://app.genvrresearch.com/vidutils/sonic"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "hummingbird_lipsync",
+      "name": "vidutils/hummingbird_lipsync",
+      "description": "Generate lipsync for a video using Hummingbird Lipsync model",
+      "documentation": "https://api.genvrresearch.com/vidutils/hummingbird_lipsync",
+      "preview": "https://app.genvrresearch.com/vidutils/hummingbird_lipsync"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "kling_lip_sync",
+      "name": "vidutils/kling_lip_sync",
+      "description": "Generate lipsync for a video using Kling Lip Sync model",
+      "documentation": "https://api.genvrresearch.com/vidutils/kling_lip_sync",
+      "preview": "https://app.genvrresearch.com/vidutils/kling_lip_sync"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "luma_reframe_video",
+      "name": "vidutils/luma_reframe_video",
+      "description": "Change aspect ratio of videos using Luma Reframe Video model",
+      "documentation": "https://api.genvrresearch.com/vidutils/luma_reframe_video",
+      "preview": "https://app.genvrresearch.com/vidutils/luma_reframe_video"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "luma_ray2_modify_video",
+      "name": "vidutils/luma_ray2_modify_video",
+      "description": "Modify a video using Luma Ray 2 Modify Video model",
+      "documentation": "https://api.genvrresearch.com/vidutils/luma_ray2_modify_video",
+      "preview": "https://app.genvrresearch.com/vidutils/luma_ray2_modify_video"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "luma_ray2_flash_modify_video",
+      "name": "vidutils/luma_ray2_flash_modify_video",
+      "description": "Modify a video using Luma Ray 2 Flash Modify Video model",
+      "documentation": "https://api.genvrresearch.com/vidutils/luma_ray2_flash_modify_video",
+      "preview": "https://app.genvrresearch.com/vidutils/luma_ray2_flash_modify_video"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "minimax_remover",
+      "name": "vidutils/minimax_remover",
+      "description": "Remove objects from a video using Minimax Remover model",
+      "documentation": "https://api.genvrresearch.com/vidutils/minimax_remover",
+      "preview": "https://app.genvrresearch.com/vidutils/minimax_remover"
+    },
+    {
+      "category": "vidutils",
+      "subcategory": "masked_video_generator",
+      "name": "vidutils/masked_video_generator",
+      "description": "Generate videos with masked objects using Masked Video Generator model",
+      "documentation": "https://api.genvrresearch.com/vidutils/masked_video_generator",
+      "preview": "https://app.genvrresearch.com/vidutils/masked_video_generator"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "sora2_t2v",
+      "name": "videogen/sora2_t2v",
+      "description": "Generate videos using Sora 2 T2V model",
+      "documentation": "https://api.genvrresearch.com/videogen/sora2_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/sora2_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "sora2_pro_t2v",
+      "name": "videogen/sora2_pro_t2v",
+      "description": "Generate videos using Sora 2 Pro T2V model",
+      "documentation": "https://api.genvrresearch.com/videogen/sora2_pro_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/sora2_pro_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling2_5_i2v",
+      "name": "videogen/kling2_5_i2v",
+      "description": "Generate videos using Kling 2.5 Turbo model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/kling2_5_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/kling2_5_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling2_5_t2v",
+      "name": "videogen/kling2_5_t2v",
+      "description": "Generate videos using Kling 2.5 Turbo model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/kling2_5_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/kling2_5_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "decart_lucy_14b",
+      "name": "videogen/decart_lucy_14b",
+      "description": "Generate videos in realtime using Decart Lucy 14B model",
+      "documentation": "https://api.genvrresearch.com/videogen/decart_lucy_14b",
+      "preview": "https://app.genvrresearch.com/videogen/decart_lucy_14b"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "wan_fun_control",
+      "name": "videogen/wan_fun_control",
+      "description": "Motion transfer on videos using Wan Fun Control model",
+      "documentation": "https://api.genvrresearch.com/videogen/wan_fun_control",
+      "preview": "https://app.genvrresearch.com/videogen/wan_fun_control"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "wan2_5",
+      "name": "videogen/wan2_5",
+      "description": "Generate videos using Wan 2.5 model",
+      "documentation": "https://api.genvrresearch.com/videogen/wan2_5",
+      "preview": "https://app.genvrresearch.com/videogen/wan2_5"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "higgsfield_video",
+      "name": "videogen/higgsfield_video",
+      "description": "Generate videos using Higgsfield Video model",
+      "documentation": "https://api.genvrresearch.com/videogen/higgsfield_video",
+      "preview": "https://app.genvrresearch.com/videogen/higgsfield_video"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "google_veo3_i2v",
+      "name": "videogen/google_veo3_i2v",
+      "description": "Generate videos with audios using Google's Veo3 model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/google_veo3_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/google_veo3_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "google_veo3_t2v",
+      "name": "videogen/google_veo3_t2v",
+      "description": "Generate videos with audios using Google's Veo3 model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/google_veo3_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/google_veo3_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "google_veo3_fast_t2v",
+      "name": "videogen/google_veo3_fast_t2v",
+      "description": "Generate videos with audios using Google's Veo3 fast model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/google_veo3_fast_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/google_veo3_fast_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "google_veo3_fast_i2v",
+      "name": "videogen/google_veo3_fast_i2v",
+      "description": "Generate videos with audios using Google's Veo3 fast model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/google_veo3_fast_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/google_veo3_fast_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling2_1_pro_se2v",
+      "name": "videogen/kling2_1_pro_se2v",
+      "description": "Generate videos using Kling 2.1 Pro SE model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/kling2_1_pro_se2v",
+      "preview": "https://app.genvrresearch.com/videogen/kling2_1_pro_se2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_v5",
+      "name": "videogen/pixverse_v5",
+      "description": "Generate videos using Pixverse model v5",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_v5",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_v5"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "minimax_hailuo2_fast_i2v",
+      "name": "videogen/minimax_hailuo2_fast_i2v",
+      "description": "Generate videos using Minimax Hailuo 2 Fast model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/minimax_hailuo2_fast_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/minimax_hailuo2_fast_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "bytedance_seedance1_pro_t2v",
+      "name": "videogen/bytedance_seedance1_pro_t2v",
+      "description": "Generate videos using Bytedance's Seedance 1 pro model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/bytedance_seedance1_pro_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/bytedance_seedance1_pro_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "bytedance_seedance1_pro_i2v",
+      "name": "videogen/bytedance_seedance1_pro_i2v",
+      "description": "Generate videos using Bytedance's Seedance 1 pro model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/bytedance_seedance1_pro_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/bytedance_seedance1_pro_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "minimax_hailuo2_pro_t2v",
+      "name": "videogen/minimax_hailuo2_pro_t2v",
+      "description": "Generate videos using Minimax Hailuo 2 Pro model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/minimax_hailuo2_pro_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/minimax_hailuo2_pro_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "minimax_hailuo2_pro_i2v",
+      "name": "videogen/minimax_hailuo2_pro_i2v",
+      "description": "Generate videos using Minimax Hailuo 2 Pro model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/minimax_hailuo2_pro_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/minimax_hailuo2_pro_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "moonvalley_marey_i2v",
+      "name": "videogen/moonvalley_marey_i2v",
+      "description": "Generate videos using Moonvalley Marey I2V model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/moonvalley_marey_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/moonvalley_marey_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "moonvalley_marey_t2v",
+      "name": "videogen/moonvalley_marey_t2v",
+      "description": "Generate videos using Moonvalley Marey T2V model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/moonvalley_marey_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/moonvalley_marey_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "ltxv_13b_098_i2v",
+      "name": "videogen/ltxv_13b_098_i2v",
+      "description": "Generate videos using LTX Video 13B 0.98 I2V model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/ltxv_13b_098_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/ltxv_13b_098_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "ltxv_13b_098_t2v",
+      "name": "videogen/ltxv_13b_098_t2v",
+      "description": "Generate videos using LTX Video 13B 0.98 T2V model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/ltxv_13b_098_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/ltxv_13b_098_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "bytedance_seedance1_t2v",
+      "name": "videogen/bytedance_seedance1_t2v",
+      "description": "Generate videos using Bytedance's Seedance 1 model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/bytedance_seedance1_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/bytedance_seedance1_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "bytedance_seedance1_i2v",
+      "name": "videogen/bytedance_seedance1_i2v",
+      "description": "Generate videos using Bytedance's Seedance 1 model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/bytedance_seedance1_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/bytedance_seedance1_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "bytedance_seedance1_r2v",
+      "name": "videogen/bytedance_seedance1_r2v",
+      "description": "Generate videos using Bytedance's Seedance 1 model (reference2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/bytedance_seedance1_r2v",
+      "preview": "https://app.genvrresearch.com/videogen/bytedance_seedance1_r2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "minimax_hailuo2_standard_i2v",
+      "name": "videogen/minimax_hailuo2_standard_i2v",
+      "description": "Generate videos using Minimax Hailuo 2 Standard model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/minimax_hailuo2_standard_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/minimax_hailuo2_standard_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "minimax_hailuo2_standard_t2v",
+      "name": "videogen/minimax_hailuo2_standard_t2v",
+      "description": "Generate videos using Minimax Hailuo 2 Standard model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/minimax_hailuo2_standard_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/minimax_hailuo2_standard_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "wan2_2_14b_i2v",
+      "name": "videogen/wan2_2_14b_i2v",
+      "description": "Generate videos using Alibaba's WAN2.2 14B model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/wan2_2_14b_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/wan2_2_14b_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "wan2_2_14b_t2v",
+      "name": "videogen/wan2_2_14b_t2v",
+      "description": "Generate videos using Alibaba's WAN2.2 14B model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/wan2_2_14b_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/wan2_2_14b_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling2_1_master_i2v",
+      "name": "videogen/kling2_1_master_i2v",
+      "description": "Generate videos using Kling 2.1 master model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/kling2_1_master_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/kling2_1_master_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling2_1_master_t2v",
+      "name": "videogen/kling2_1_master_t2v",
+      "description": "Generate videos using Kling 2.1 master model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/kling2_1_master_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/kling2_1_master_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling2_1_standard_pro_i2v",
+      "name": "videogen/kling2_1_standard_pro_i2v",
+      "description": "Generate videos using Kling 2.1 standard pro model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/kling2_1_standard_pro_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/kling2_1_standard_pro_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_v4_5",
+      "name": "videogen/pixverse_v4_5",
+      "description": "Generate videos using Pixverse model v4.5",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_v4_5",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_v4_5"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_extend_video",
+      "name": "videogen/pixverse_extend_video",
+      "description": "Extend videos using Pixverse model (extend video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_extend_video",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_extend_video"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "minimax_video_o1",
+      "name": "videogen/minimax_video_o1",
+      "description": "Generate 6sec videos using prompts and/or images using Minimax Video O1 model",
+      "documentation": "https://api.genvrresearch.com/videogen/minimax_video_o1",
+      "preview": "https://app.genvrresearch.com/videogen/minimax_video_o1"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "runway_gen4_turbo",
+      "name": "videogen/runway_gen4_turbo",
+      "description": "Generate 5 or 10 sec videos using prompts and/or images using Runway Gen 4 Turbo model",
+      "documentation": "https://api.genvrresearch.com/videogen/runway_gen4_turbo",
+      "preview": "https://app.genvrresearch.com/videogen/runway_gen4_turbo"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "runway_gen3a_turbo",
+      "name": "videogen/runway_gen3a_turbo",
+      "description": "Generate 5 or 10 sec videos using prompts and/or images using Runway Gen 3a Turbo model",
+      "documentation": "https://api.genvrresearch.com/videogen/runway_gen3a_turbo",
+      "preview": "https://app.genvrresearch.com/videogen/runway_gen3a_turbo"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling1_6_pro",
+      "name": "videogen/kling1_6_pro",
+      "description": "Generate 5 or 10 sec videos using prompts and/or images using Kling 1.6 Pro model",
+      "documentation": "https://api.genvrresearch.com/videogen/kling1_6_pro",
+      "preview": "https://app.genvrresearch.com/videogen/kling1_6_pro"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling1_6_standard",
+      "name": "videogen/kling1_6_standard",
+      "description": "Generate 5 or 10 sec videos using prompts and/or images using Kling 1.6 Standard model",
+      "documentation": "https://api.genvrresearch.com/videogen/kling1_6_standard",
+      "preview": "https://app.genvrresearch.com/videogen/kling1_6_standard"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling2_i2v",
+      "name": "videogen/kling2_i2v",
+      "description": "Generate 5 sec videos using prompts and/or images using Kling 2 Image 2 Video model",
+      "documentation": "https://api.genvrresearch.com/videogen/kling2_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/kling2_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "kling2_t2v",
+      "name": "videogen/kling2_t2v",
+      "description": "Generate 5 sec videos using prompts using Kling 2 Text 2 Video model",
+      "documentation": "https://api.genvrresearch.com/videogen/kling2_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/kling2_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "hunyuan_video",
+      "name": "videogen/hunyuan_video",
+      "description": "Generate video using Tencent's Hunyuan Video model (text 2 video)",
+      "documentation": "https://api.genvrresearch.com/videogen/hunyuan_video",
+      "preview": "https://app.genvrresearch.com/videogen/hunyuan_video"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "hunyuan_v2v",
+      "name": "videogen/hunyuan_v2v",
+      "description": "Generate video using Tencent's Hunyuan Video model (video 2 video)",
+      "documentation": "https://api.genvrresearch.com/videogen/hunyuan_v2v",
+      "preview": "https://app.genvrresearch.com/videogen/hunyuan_v2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "hunyuan_custom",
+      "name": "videogen/hunyuan_custom",
+      "description": "Generate video using Tencent's Hunyuan Video model (image 2 video)",
+      "documentation": "https://api.genvrresearch.com/videogen/hunyuan_custom",
+      "preview": "https://app.genvrresearch.com/videogen/hunyuan_custom"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "framepack",
+      "name": "videogen/framepack",
+      "description": "Generate long videos using Framepack model (image 2 video)",
+      "documentation": "https://api.genvrresearch.com/videogen/framepack",
+      "preview": "https://app.genvrresearch.com/videogen/framepack"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "leanardo_motion2",
+      "name": "videogen/leanardo_motion2",
+      "description": "Generate videos using Leanardo Motion 2 model",
+      "documentation": "https://api.genvrresearch.com/videogen/leanardo_motion2",
+      "preview": "https://app.genvrresearch.com/videogen/leanardo_motion2"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "google_veo2",
+      "name": "videogen/google_veo2",
+      "description": "Generate videos using Google's Veo2 model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/google_veo2",
+      "preview": "https://app.genvrresearch.com/videogen/google_veo2"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "google_veo2_i2v",
+      "name": "videogen/google_veo2_i2v",
+      "description": "Generate videos using Google's Veo2 model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/google_veo2_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/google_veo2_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "luma_ray2_i2v",
+      "name": "videogen/luma_ray2_i2v",
+      "description": "Generate videos using Luma Ray 2 model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/luma_ray2_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/luma_ray2_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "luma_ray2_t2v",
+      "name": "videogen/luma_ray2_t2v",
+      "description": "Generate videos using Luma Ray 2 model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/luma_ray2_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/luma_ray2_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "luma_ray2_flash_t2v",
+      "name": "videogen/luma_ray2_flash_t2v",
+      "description": "Generate videos using Luma Ray 2 Flash model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/luma_ray2_flash_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/luma_ray2_flash_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "luma_ray2_flash_i2v",
+      "name": "videogen/luma_ray2_flash_i2v",
+      "description": "Generate videos using Luma Ray 2 Flash model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/luma_ray2_flash_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/luma_ray2_flash_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pikaadditions",
+      "name": "videogen/pikaadditions",
+      "description": "Generate videos using Pika Additions model (add an object to a video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pikaadditions",
+      "preview": "https://app.genvrresearch.com/videogen/pikaadditions"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pika2_2_i2v",
+      "name": "videogen/pika2_2_i2v",
+      "description": "Generate videos using Pika V2.2 model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pika2_2_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/pika2_2_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pika2_2_t2v",
+      "name": "videogen/pika2_2_t2v",
+      "description": "Generate videos using Pika V2.2 model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pika2_2_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/pika2_2_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pika2_i2v_turbo",
+      "name": "videogen/pika2_i2v_turbo",
+      "description": "Generate videos using Pika V2 I2V Turbo model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pika2_i2v_turbo",
+      "preview": "https://app.genvrresearch.com/videogen/pika2_i2v_turbo"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pikaswaps",
+      "name": "videogen/pikaswaps",
+      "description": "Generate videos using Pika Swap model (swap an object in a video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pikaswaps",
+      "preview": "https://app.genvrresearch.com/videogen/pikaswaps"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_v4_i2v",
+      "name": "videogen/pixverse_v4_i2v",
+      "description": "Generate videos using Pixverse model v4 (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_v4_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_v4_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_v4_t2v",
+      "name": "videogen/pixverse_v4_t2v",
+      "description": "Generate videos using Pixverse model v4 (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_v4_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_v4_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_v4_i2v_fast",
+      "name": "videogen/pixverse_v4_i2v_fast",
+      "description": "Generate videos using Pixverse model v4 (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_v4_i2v_fast",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_v4_i2v_fast"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_v4_t2v_fast",
+      "name": "videogen/pixverse_v4_t2v_fast",
+      "description": "Generate videos using Pixverse model v4 (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_v4_t2v_fast",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_v4_t2v_fast"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_i2v",
+      "name": "videogen/pixverse_i2v",
+      "description": "Generate videos using Pixverse model v3.5 (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_t2v",
+      "name": "videogen/pixverse_t2v",
+      "description": "Generate videos using Pixverse model v3.5 (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_i2v_fast",
+      "name": "videogen/pixverse_i2v_fast",
+      "description": "Generate videos using Pixverse model v3.5 (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_i2v_fast",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_i2v_fast"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_t2v_fast",
+      "name": "videogen/pixverse_t2v_fast",
+      "description": "Generate videos using Pixverse model v3.5 (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_t2v_fast",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_t2v_fast"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_effects",
+      "name": "videogen/pixverse_effects",
+      "description": "Generate video effects using Pixverse model v3.5",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_effects",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_effects"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "pixverse_transition",
+      "name": "videogen/pixverse_transition",
+      "description": "Generate video transitions using Pixverse model v3.5",
+      "documentation": "https://api.genvrresearch.com/videogen/pixverse_transition",
+      "preview": "https://app.genvrresearch.com/videogen/pixverse_transition"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "magi_i2v",
+      "name": "videogen/magi_i2v",
+      "description": "Generate videos using MAGI model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/magi_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/magi_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "magi_t2v",
+      "name": "videogen/magi_t2v",
+      "description": "Generate videos using MAGI model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/magi_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/magi_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "magi_extend",
+      "name": "videogen/magi_extend",
+      "description": "Generate videos using MAGI model (extend)",
+      "documentation": "https://api.genvrresearch.com/videogen/magi_extend",
+      "preview": "https://app.genvrresearch.com/videogen/magi_extend"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "vidu_q1_i2v",
+      "name": "videogen/vidu_q1_i2v",
+      "description": "Generate videos using Vidu's Q1 model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/vidu_q1_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/vidu_q1_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "vidu_q1_t2v",
+      "name": "videogen/vidu_q1_t2v",
+      "description": "Generate videos using Vidu's Q1 model (text2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/vidu_q1_t2v",
+      "preview": "https://app.genvrresearch.com/videogen/vidu_q1_t2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "vidu_q1_se2v",
+      "name": "videogen/vidu_q1_se2v",
+      "description": "Generate videos using Vidu's Q1 model (start&end2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/vidu_q1_se2v",
+      "preview": "https://app.genvrresearch.com/videogen/vidu_q1_se2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "vidu_q1_r2v",
+      "name": "videogen/vidu_q1_r2v",
+      "description": "Generate videos using Vidu's Q1 model (reference2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/vidu_q1_r2v",
+      "preview": "https://app.genvrresearch.com/videogen/vidu_q1_r2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "vidu_i2v",
+      "name": "videogen/vidu_i2v",
+      "description": "Generate videos using Vidu's I2V model (image2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/vidu_i2v",
+      "preview": "https://app.genvrresearch.com/videogen/vidu_i2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "vidu_r2v",
+      "name": "videogen/vidu_r2v",
+      "description": "Generate videos using Vidu's R2V model (reference2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/vidu_r2v",
+      "preview": "https://app.genvrresearch.com/videogen/vidu_r2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "vidu_se2v",
+      "name": "videogen/vidu_se2v",
+      "description": "Generate videos using Vidu's SE2V model (start&end2video)",
+      "documentation": "https://api.genvrresearch.com/videogen/vidu_se2v",
+      "preview": "https://app.genvrresearch.com/videogen/vidu_se2v"
+    },
+    {
+      "category": "videogen",
+      "subcategory": "vace_14b",
+      "name": "videogen/vace_14b",
+      "description": "Generate or edit videos using Vace 14B model",
+      "documentation": "https://api.genvrresearch.com/videogen/vace_14b",
+      "preview": "https://app.genvrresearch.com/videogen/vace_14b"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "french_kiss",
+      "name": "videogen_templates/french_kiss",
+      "description": "Create romantic moments with elegant French-style kiss animations, perfect for couples.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/french_kiss",
+      "preview": "https://app.genvrresearch.com/videogen_templates/french_kiss"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "slice_therapy",
+      "name": "videogen_templates/slice_therapy",
+      "description": "Add satisfying slicing animations to your images, perfect for product demonstrations.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/slice_therapy",
+      "preview": "https://app.genvrresearch.com/videogen_templates/slice_therapy"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "beast_companion",
+      "name": "videogen_templates/beast_companion",
+      "description": "Add majestic wild animals like lions, wolves, or bears as your companions in stunning scenes.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/beast_companion",
+      "preview": "https://app.genvrresearch.com/videogen_templates/beast_companion"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "bloom_magic",
+      "name": "videogen_templates/bloom_magic",
+      "description": "Watch as beautiful flowers magically bloom and grow around your subject.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/bloom_magic",
+      "preview": "https://app.genvrresearch.com/videogen_templates/bloom_magic"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "golden_epoch",
+      "name": "videogen_templates/golden_epoch",
+      "description": "Transform your photos into stunning golden-age Hollywood style scenes.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/golden_epoch",
+      "preview": "https://app.genvrresearch.com/videogen_templates/golden_epoch"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "oscar_gala",
+      "name": "videogen_templates/oscar_gala",
+      "description": "Give your photos the red-carpet treatment with glamorous Oscar ceremony effects.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/oscar_gala",
+      "preview": "https://app.genvrresearch.com/videogen_templates/oscar_gala"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "fashion_stride",
+      "name": "videogen_templates/fashion_stride",
+      "description": "Add runway-worthy walking animations to showcase fashion and style.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/fashion_stride",
+      "preview": "https://app.genvrresearch.com/videogen_templates/fashion_stride"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "star_carpet",
+      "name": "videogen_templates/star_carpet",
+      "description": "Create celebrity-style entrances with dazzling star effects.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/star_carpet",
+      "preview": "https://app.genvrresearch.com/videogen_templates/star_carpet"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "flame_carpet",
+      "name": "videogen_templates/flame_carpet",
+      "description": "Add dramatic fire effects to your walkway for epic entrances.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/flame_carpet",
+      "preview": "https://app.genvrresearch.com/videogen_templates/flame_carpet"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "frost_carpet",
+      "name": "videogen_templates/frost_carpet",
+      "description": "Create magical winter scenes with frost effects spreading beneath your feet.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/frost_carpet",
+      "preview": "https://app.genvrresearch.com/videogen_templates/frost_carpet"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "exotic_princess",
+      "name": "videogen_templates/exotic_princess",
+      "description": "Transform into a royal princess from different cultures with stunning traditional attire.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/exotic_princess",
+      "preview": "https://app.genvrresearch.com/videogen_templates/exotic_princess"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "hugging",
+      "name": "videogen_templates/hugging",
+      "description": "Create heartwarming moments with natural hugging animations between people.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/hugging",
+      "preview": "https://app.genvrresearch.com/videogen_templates/hugging"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "kissing",
+      "name": "videogen_templates/kissing",
+      "description": "Generate romantic kissing scenes with elegant animations.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/kissing",
+      "preview": "https://app.genvrresearch.com/videogen_templates/kissing"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "hulk",
+      "name": "videogen_templates/hulk",
+      "description": "Transform yourself into the incredible Hulk with powerful transformation effects.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/hulk",
+      "preview": "https://app.genvrresearch.com/videogen_templates/hulk"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "cap_walk",
+      "name": "videogen_templates/cap_walk",
+      "description": "Add Captain America's iconic walking style to your photos.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/cap_walk",
+      "preview": "https://app.genvrresearch.com/videogen_templates/cap_walk"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "hulk_dive",
+      "name": "videogen_templates/hulk_dive",
+      "description": "Create epic Hulk-style diving animations with dramatic effects.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/hulk_dive",
+      "preview": "https://app.genvrresearch.com/videogen_templates/hulk_dive"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "captain_america",
+      "name": "videogen_templates/captain_america",
+      "description": "Transform into Captain America with shield-throwing animations and heroic poses.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/captain_america",
+      "preview": "https://app.genvrresearch.com/videogen_templates/captain_america"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "dreamy_wedding",
+      "name": "videogen_templates/dreamy_wedding",
+      "description": "Create magical wedding moments with romantic effects and animations.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/dreamy_wedding",
+      "preview": "https://app.genvrresearch.com/videogen_templates/dreamy_wedding"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "romantic_lift",
+      "name": "videogen_templates/romantic_lift",
+      "description": "Add romantic lifting animations perfect for couple photos.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/romantic_lift",
+      "preview": "https://app.genvrresearch.com/videogen_templates/romantic_lift"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "sweet_proposal",
+      "name": "videogen_templates/sweet_proposal",
+      "description": "Transform your photos into heartwarming proposal scenes with romantic effects.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/sweet_proposal",
+      "preview": "https://app.genvrresearch.com/videogen_templates/sweet_proposal"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "pet_lovers",
+      "name": "videogen_templates/pet_lovers",
+      "description": "Create heartwarming interactions between people and their beloved pets.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/pet_lovers",
+      "preview": "https://app.genvrresearch.com/videogen_templates/pet_lovers"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "hug",
+      "name": "videogen_templates/hug",
+      "description": "Generate warm and natural hugging animations with emotional effects.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/hug",
+      "preview": "https://app.genvrresearch.com/videogen_templates/hug"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "kiss",
+      "name": "videogen_templates/kiss",
+      "description": "Create tender kissing moments with romantic visual effects.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/kiss",
+      "preview": "https://app.genvrresearch.com/videogen_templates/kiss"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "cheek_kiss",
+      "name": "videogen_templates/cheek_kiss",
+      "description": "Create tender cheek kissing moments with romantic visual effects.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/cheek_kiss",
+      "preview": "https://app.genvrresearch.com/videogen_templates/cheek_kiss"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "punch_hit",
+      "name": "videogen_templates/punch_hit",
+      "description": "Create dramatic punch hit animations with powerful effects.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/punch_hit",
+      "preview": "https://app.genvrresearch.com/videogen_templates/punch_hit"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "dynasty_dress",
+      "name": "videogen_templates/dynasty_dress",
+      "description": "Transform into historical dynasty figures with flowing traditional robes.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/dynasty_dress",
+      "preview": "https://app.genvrresearch.com/videogen_templates/dynasty_dress"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "love_pose",
+      "name": "videogen_templates/love_pose",
+      "description": "Generate romantic couple poses with beautiful love-themed effects.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/love_pose",
+      "preview": "https://app.genvrresearch.com/videogen_templates/love_pose"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "morphlab",
+      "name": "videogen_templates/morphlab",
+      "description": "Create smooth morphing transitions between different looks or personas.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/morphlab",
+      "preview": "https://app.genvrresearch.com/videogen_templates/morphlab"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "live_memory",
+      "name": "videogen_templates/live_memory",
+      "description": "Transform old photos into living memories with gentle animations.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/live_memory",
+      "preview": "https://app.genvrresearch.com/videogen_templates/live_memory"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "christmas",
+      "name": "videogen_templates/christmas",
+      "description": "Add festive Christmas magic with snow, lights, and holiday effects.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/christmas",
+      "preview": "https://app.genvrresearch.com/videogen_templates/christmas"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "shake_it_dance",
+      "name": "videogen_templates/shake_it_dance",
+      "description": "Add shake it dance effects to your photos.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/shake_it_dance",
+      "preview": "https://app.genvrresearch.com/videogen_templates/shake_it_dance"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "squid_game",
+      "name": "videogen_templates/squid_game",
+      "description": "Add squid game effects to your photos.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/squid_game",
+      "preview": "https://app.genvrresearch.com/videogen_templates/squid_game"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "zombie_mode",
+      "name": "videogen_templates/zombie_mode",
+      "description": "Add zombie mode effects to your photos.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/zombie_mode",
+      "preview": "https://app.genvrresearch.com/videogen_templates/zombie_mode"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "eye_zoom_challenge",
+      "name": "videogen_templates/eye_zoom_challenge",
+      "description": "Add eye zoom challenge effects to your photos.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/eye_zoom_challenge",
+      "preview": "https://app.genvrresearch.com/videogen_templates/eye_zoom_challenge"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "muscle_surge",
+      "name": "videogen_templates/muscle_surge",
+      "description": "Add muscle surge effects to your photos.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/muscle_surge",
+      "preview": "https://app.genvrresearch.com/videogen_templates/muscle_surge"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "cakeify",
+      "name": "videogen_templates/cakeify",
+      "description": "Add cakeify effects to your photos.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/cakeify",
+      "preview": "https://app.genvrresearch.com/videogen_templates/cakeify"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "kiss_me_ai",
+      "name": "videogen_templates/kiss_me_ai",
+      "description": "Add kiss me ai effects to your photos.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/kiss_me_ai",
+      "preview": "https://app.genvrresearch.com/videogen_templates/kiss_me_ai"
+    },
+    {
+      "category": "videogen_templates",
+      "subcategory": "balloon_flyaway",
+      "name": "videogen_templates/balloon_flyaway",
+      "description": "Fly like a baloon with balloon flyaway effect.",
+      "documentation": "https://api.genvrresearch.com/videogen_templates/balloon_flyaway",
+      "preview": "https://app.genvrresearch.com/videogen_templates/balloon_flyaway"
     }
   ]
 }
