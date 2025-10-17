@@ -1,12 +1,30 @@
 import { McpAgent } from "agents/mcp";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
-// Import from genvr-mcp-server-lite package
-import schemasCache from 'genvr-mcp-server-lite/dist/schemas-cache.json';
-import curatedModels from 'genvr-mcp-server-lite/dist/curated-models.json';
+// Load GenVR data dynamically
+let schemasCache: any = {};
+let curatedModelKeys: string[] = [];
 
-// Extract curated model keys from the imported data
-const curatedModelKeys = curatedModels.curatedModels.map((model: any) => `${model.category}/${model.subcategory}`);
+async function loadGenVRData() {
+	try {
+		// Try to load the data dynamically
+		const [schemasModule, modelsModule] = await Promise.all([
+			import('genvr-mcp-server-lite/dist/schemas-cache.json'),
+			import('genvr-mcp-server-lite/dist/curated-models.json')
+		]);
+		
+		schemasCache = schemasModule.default || schemasModule;
+		const curatedModels = modelsModule.default || modelsModule;
+		curatedModelKeys = curatedModels.curatedModels.map((model: any) => `${model.category}/${model.subcategory}`);
+		
+		console.log(`Loaded ${curatedModelKeys.length} GenVR models`);
+	} catch (error) {
+		console.error('Failed to load GenVR data:', error);
+		// Fallback to empty data
+		schemasCache = {};
+		curatedModelKeys = [];
+	}
+}
 
 // GenVR API base URL
 const GENVR_API_BASE = "https://api.genvrresearch.com/api/v1";
@@ -81,6 +99,9 @@ export class MyMCP extends McpAgent {
 	});
 
 	async init() {
+		// Load GenVR data first
+		await loadGenVRData();
+
 		// Simple addition tool
 		this.server.tool("add", { a: z.number(), b: z.number() }, async ({ a, b }) => ({
 			content: [{ type: "text", text: String(a + b) }],
@@ -124,6 +145,7 @@ export class MyMCP extends McpAgent {
 		);
 
 		// Register GenVR tools using genvr-mcp-server-lite data
+		console.log(`Registering ${curatedModelKeys.length} GenVR tools...`);
 		for (const modelKey of curatedModelKeys) {
 			const [category, subcategory] = modelKey.split('/');
 			const toolName = `generate_${category}_${subcategory}`;
@@ -138,6 +160,7 @@ export class MyMCP extends McpAgent {
 			let inputSchema: any = {};
 			
 			if (schema && schema.properties) {
+				console.log(`Using schema for ${toolName}:`, Object.keys(schema.properties));
 				// Convert JSON schema to Zod schema
 				for (const [key, prop] of Object.entries(schema.properties)) {
 					const property = prop as any;
@@ -154,6 +177,7 @@ export class MyMCP extends McpAgent {
 					}
 				}
 			} else {
+				console.log(`No schema found for ${toolName}, using fallback schema`);
 				// Fallback to basic schema if no schema found
 				inputSchema = {
 					prompt: z.string().describe("The input prompt or description for the AI model"),
