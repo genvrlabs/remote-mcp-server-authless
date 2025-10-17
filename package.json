@@ -14,6 +14,7 @@
 	"dependencies": {
 		"@modelcontextprotocol/sdk": "1.19.1",
 		"agents": "^0.2.8",
+		"genvr-mcp-server-lite": "^1.1.0",
 		"zod": "^3.25.76"
 	},
 	"devDependencies": {
